@@ -1,0 +1,64 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px 165px;
+
+    position: relative;
+    width: 1280px;
+    height: 720px;
+}
+
+h1 {
+    width: 610px;
+    height: 140px;
+    font-size: 55px;
+}
+
+.imgDiv {
+    width: 1150px;
+    height: 350px;
+}
+
+.camera {
+    margin-left: 30px;
+}
+
+.laptop {
+    margin-left: 30px;
+}
+
+.chip {
+    margin-left: 30px;
+}
+
+.pOne {
+    display: inline-block;
+    width: 255px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.pTwo {
+    display: inline-block;
+    width: 255px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.pThree {
+    display: inline-block;
+    width: 255px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.pFour {
+    display: inline-block;
+    width: 255px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+}
