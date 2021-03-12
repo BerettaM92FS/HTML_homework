@@ -1,0 +1,117 @@
+/* CSS Document */
+* {
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+    box-sizing: border-box;
+    font-family: Manrope, sans-serif;
+    color: rgb(24, 25, 31)
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	max-height: 72px;
+	box-shadow: 0px 1px 0px #E5E9F2;
+}
+
+nav {
+	display: flex;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 32px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.more {
+	margin-right: 205px;
+}
+
+.google {
+	margin-right: 12px;
+}
+
+.container{
+	display: flex;
+	max-width: 1062px;
+	margin: 0 auto;
+}
+
+.left-block {
+	max-width: 540px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.left-block :nth-child(1) {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	margin-top: 211px;
+}
+
+.left-block :nth-child(2) {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	margin-top: -33px;
+}
+
+.left-block :nth-child(3) {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	background: rgba(140,48,245,1.00);
+	border: 0;
+	border-radius: 8px;
+	color: white;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 41px;
+	padding-right: 41px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+
+.right_block {
+	max-width: 524px;
+}
+
+.right_block :nth-child(1) {
+	max-width: 524px;
+	margin-top: 175px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+	.more {
+		margin-right: 150px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	nav ul li {
+		margin-right: 5px;
+	}
+	.more {
+		margin-right: 5px;
+	}
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+}
