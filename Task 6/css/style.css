@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Gotham Pro, sans-serif;
+}
+
+body {
+	background: #E5E5E5;	
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-transform: uppercase;
+	background-color: white;
+}
+
+nav ul li div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 40px;
+	padding-right: 44px;
+	border-right: 1px solid #F4F4F4;
+}
+
+.feed {
+	margin-left: 14px;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.network {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.jobs {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.chat {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.notices {
+	padding-left: 28px;
+	padding-right: 28px;
+	margin-right: 20px;
+}
+
+.search {
+	padding-left: 33px;
+	border-left: 1px solid #F4F4F4;
+}
+
+form {
+	width: 367px;
+}
+
+.search_text {
+  height: 80px;
+  padding-left: 15px;
+  border:none
+}
+
+.profile {
+	border-right: 1px solid #F4F4F4;
+}
+
+.other {
+	padding-left: 23px;
+}
+
+
+
+.container {
+	max-width: 851px;
+	
+	padding: 0;
+}
+.left_block {
+	position: relative;
+}
+.sidebar {
+	position: absolute;
+	width: 290px;
+	height: 320px;
+	left: 170px;
+	top: 39px;
+	background-color: white;
+}
+
+.sidebar ul {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 11px;
+	text-transform: uppercase;
+}
+
+.sidebar ul li {
+	border: 1px solid #F4F4F4;
+}
+
+.sidebar ul li a {
+	display: block;
+	color: rgba(24,24,24,1.00);
+	line-height: 11px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 32px;
+}
+
+.sidebar ul li a:hover {
+	border-left: 10px solid  rgba(2,117,177,1);
+	transition: .5s;
+	background:#D0D0D0;
+}
+
+.two, two:hover {
+	border-left: 10px solid  rgba(2,117,177,1);
+	transition: .5s;
+	background:#D0D0D0;
+}
+
+.one_p {
+	display: inline-block;
+	margin-left: 78px;
+}
+
+.two_p {
+	display: inline-block;
+	margin-left: 88px;
+	color: rgba(237,143,3,1.00)
+}
+
+.fa-circle {
+	color: rgba(237,143,3,1.00)
+}
+
+.four_p {
+	display: inline-block;
+	margin-left: 142px;	
+}
+
+.five_p {
+	display: inline-block;
+	margin-left: 146px;	
+}
+
+.six_p {
+	display: inline-block;
+	margin-left: 127px;	
+}
